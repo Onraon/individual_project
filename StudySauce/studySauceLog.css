@@ -1,0 +1,53 @@
+ul {
+  background-color: #72000b;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li {
+  float: right;
+}
+li a {
+  display: block;
+  background-color: #72000b;
+  color: #ffffff;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+}
+
+p {
+  font-style: 함컴 말랑말랑;
+  font-size: 40px;
+  margin: 0%;
+  display: flex;
+  margin-left: 47vw;
+  margin-top: 10vw;
+  color: #470000;
+}
+
+input {
+  font-family: 한컴 말랑말랑;
+  font-size: 40px;
+  width: 30vw;
+  height: 40px;
+  display: flex;
+  padding: 0.7vw;
+}
+.inp {
+  margin-top: 1vw;
+  margin-left: 35vw;
+}
+button {
+  font-family: 한컴 말랑말랑;
+  font-size: 40px;
+  width: 31.7vw;
+  padding: 0.7vw;
+  margin-top: 3vw;
+  margin-left: 35vw;
+  border-radius: 0.5vw;
+  background-color: #470000;
+  color: #eae9e9;
+  border: none;
+}

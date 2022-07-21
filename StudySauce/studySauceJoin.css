@@ -1,0 +1,52 @@
+ul {
+  background-color: #72000b;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li {
+  float: right;
+}
+li a {
+  display: block;
+  background-color: #72000b;
+  color: #ffffff;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+}
+input {
+  font-family: 한컴 말랑말랑;
+  font-size: 40px;
+  width: 30vw;
+  height: 25px;
+  display: flex;
+  padding: 0.7vw;
+}
+#lock_icon input {
+  background-image: url(unlock.png);
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position: 29vw;
+  border: solid 1px gray;
+  border-radius: 3px;
+}
+.inp {
+  margin-top: 7vw;
+  margin-left: 35vw;
+}
+button {
+  font-family: 한컴 말랑말랑;
+  font-size: 30px;
+  width: 31.7vw;
+  padding: 0.7vw;
+  margin-top: 3vw;
+  margin-left: 35vw;
+  background-color: #470000;
+  color: #eae9e9;
+  border: none;
+}
+h4 {
+  margin-block-end: 5px;
+}

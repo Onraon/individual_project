@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="study_sauce.css" />
+    <script src="study_sauce.js"></script>
+
+    <title>study sauce</title>
+
+    <script language="JavaScript">
+      var SetTime = 1500;
+      function msg_time() {
+        m = Math.floor(SetTime / 60) + "분 " + (SetTime % 60) + "초";
+        var msg = "현재 남은 시간은 <font color='red'>" + m + "</font> 입니다.";
+        document.all.ViewTimer.innerHTML = msg;
+        SetTime--;
+        if (SetTime < 0) {
+          clearInterval(tid);
+          alert("종료");
+        }
+      }
+      window.onload = function TimerStart() {
+        tid = setInterval("msg_time()", 1000);
+      };
+    </script>
+  </head>
+  <body>
+    <ul>
+      <li><a href="">Log Out</a></li>
+    </ul>
+    <div class="container">
+      <h2>
+        <d id="ViewTimer"></d>
+      </h2>
+    </div>
+    <div class="sound">
+      <div>
+        <button class="waveBtn" type="button" value="PLAY" onclick="play()">
+          <a href="https://youtu.be/GynmPWUhg-Q">파도</a>
+        </button>
+        <button class="waveBtn" type="button" value="PLAY" onclick="play()">
+          <a href="https://youtu.be/qtYmGL8ePN0">폭포</a>
+        </button>
+        <button class="waveBtn" type="button" value="PLAY" onclick="play()">
+          <a href="https://youtu.be/J7x1nSjQj7Q">심장</a>
+        </button>
+        <button class="waveBtn" type="button" value="PLAY" onclick="play()">
+          <a href="https://youtu.be/sJgNGkfYsH0">카페</a>
+        </button>
+        <button class="waveBtn" type="button" value="PLAY" onclick="play()">
+          <a href="https://youtu.be/KKi2qiuZZWQ">바람</a>
+        </button>
+      </div>
+      <div>
+        <button class="waveBtn" type="button" value="PLAY" onclick="play()">
+          <a href="https://youtu.be/y8KJ5ga23zw">대화</a>
+        </button>
+        <button class="waveBtn" type="button" value="PLAY" onclick="play()">
+          <a href="https://youtu.be/-dqebVXWyo8">난방기</a>
+        </button>
+        <button class="waveBtn" type="button" value="PLAY" onclick="play()">
+          <a href="https://youtu.be/wIBnaNuhuCQ">도서관</a>
+        </button>
+        <button class="waveBtn" type="button" value="PLAY" onclick="play()">
+          <a href="https://youtu.be/dXGHnRvDH0M">숲</a>
+        </button>
+        <button class="waveBtn" type="button" value="PLAY" onclick="play()">
+          <a href="https://youtu.be/LMsUjtbro9s">시냇물</a>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
