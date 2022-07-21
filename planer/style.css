@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+}
+
+ul {
+  position: relative;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #423d4f;
+}
+li {
+  float: right;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+
+.nav {
+  position: relative;
+}
+.logo {
+  position: absolute;
+}
+
+.type {
+  margin-left: 34vw;
+  margin-top: 12vw;
+}
+.btn {
+  margin-left: 34vw;
+}
+
+input {
+  display: block;
+  width: 30vw;
+  height: 4vw;
+  color: #433e50;
+  font-size: 16px;
+  font-family: "Noto Sans CJK KR";
+  background-color: #c3c3c3;
+  border: none;
+  padding: 10px 15px;
+  margin-bottom: 1vw;
+}
+button {
+  width: 32vw;
+  height: 4vw;
+  color: #fff;
+  font-size: 20px;
+  font-family: "Noto Sans CJK KR";
+  background-color: #433e50;
+  border: none;
+  margin-top: 1vw;
+  box-shadow: #c3c3c3 0px 10px 15px;
+}
