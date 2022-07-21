@@ -1,0 +1,12 @@
+@immpoer url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url("https://images.unsplash.com/photo-1516715094483-75da7dee9758?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHNub3d8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60");
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
